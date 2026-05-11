@@ -1,3 +1,10 @@
+:root {
+  --gray-900: #121214;
+  --text-default: #ffffff;
+  --primary: #00875f;
+  --secondary: #202024;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +28,7 @@ body {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
-  font-size: 1.6rem; /* 16px */
+  font-size: 1.6rem;
   background: var(--gray-900);
   color: var(--text-default);
 }
